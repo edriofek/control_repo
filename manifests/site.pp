@@ -4,4 +4,7 @@
          content => 'This is a readme of ofek',
          owner => 'root',
          }
+         file {'/root/README':
+           owner => 'root',
+         }
       }
